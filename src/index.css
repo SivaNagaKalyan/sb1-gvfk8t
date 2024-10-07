@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  font-family: 'VT323', monospace;
+  background-color: #121212;
+  color: #00ff00;
+}
+
+.hacker-text {
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.hacker-border {
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 10px #00ff00;
+}
